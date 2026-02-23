@@ -133,6 +133,7 @@ function renderJobs() {
     return;
   }
 
+  // Render Job Cards
   filtered.forEach((job) => {
     const card = document.createElement("div");
     card.classList.add("job-card");
