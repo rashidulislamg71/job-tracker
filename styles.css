@@ -67,6 +67,10 @@ body {
   align-items: center;
 }
 
+.section-header h2 {
+  color: rgb(23, 10, 72);
+}
+
 .tabs {
   margin: 20px 0;
 }
@@ -304,5 +308,14 @@ body {
 @media(max-width:600px) {
   .dashboard {
     flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .section-header h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
   }
 }
